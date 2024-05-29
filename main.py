@@ -14,7 +14,7 @@ model = sidebar_groq_model_selection()
 st.sidebar.divider()
 st.sidebar.subheader('About')
 st.sidebar.markdown(''' Any Queries: Contact [Zeeshan Altaf](zeeshan.altaf@gmail.com)''')
-st.sidebar.markdown(''' Source code: [GitHub](https://github.com/mzeeshanaltaf/csv-data-analysis)''')
+st.sidebar.markdown(''' Source code: [GitHub](https://github.com/mzeeshanaltaf/csv-data-analysis-groq)''')
 
 # Configure Title of main application
 st.title("CSV Whisperer")
