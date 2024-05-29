@@ -6,7 +6,7 @@ import streamlit as st
 
 # Function to configure sidebar to verify and get the model  api key
 def configure_apikey_sidebar():
-    groq_api_key = st.sidebar.text_input(f'Enter the API Key', type='password',
+    groq_api_key = st.sidebar.text_input(f'Enter the Groq API Key', type='password',
                                          help='Get Groq API Key from: https://console.groq.com/keys')
     if groq_api_key == '':
         st.sidebar.warning('Enter the API key')
